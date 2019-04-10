@@ -177,7 +177,7 @@
     height: 75%;
     border: 2px solid rgb(1, 1, 59);
     float: left;
-    margin: 0px 10px;
+    margin: 0px 5px;
 }
 
 .meanstack, .frontend, .backend, .serveradmin h3{
@@ -277,19 +277,41 @@
 }
 
 fieldset{
-    width: 350px;
+    max-width: 500px;
     height: 80%;
+    padding: 0px 10px;
+    line-height: 40px;
 }
 
 #formtitle{
     text-align: center;
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
+label {
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
 
+#enrolsubmit{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(3, 82, 20);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    font-size: 16px;
+    
+}
+
+#enrolsubmit:hover{
+    background-color: rgb(1, 1, 59);
+    cursor: pointer;
+}
 
 
 
