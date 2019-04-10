@@ -299,9 +299,9 @@ label {
 }
 
 #enrolsubmit{
-    width: 100px;
+    width: 130px;
     height: 30px;
-    background-color: rgb(3, 82, 20);
+    background-color: rgb(1, 1, 59);
     color: whitesmoke;
     border: 1px solid whitesmoke;
     font-size: 16px;
@@ -309,9 +309,34 @@ label {
 }
 
 #enrolsubmit:hover{
-    background-color: rgb(1, 1, 59);
+    background-color: rgb(3, 82, 20);
     cursor: pointer;
 }
+
+#choosebatch{
+    width: 20vw;
+    height: 4vh;
+    border: 2px solid rgb(1, 1, 59);
+}
+
+#choosecourse{
+    width: 24vw;
+    height: 4vh;
+    border: 2px solid rgb(1, 1, 59);
+
+}
+.inputext{
+    width: 36.3vw;
+    height: 4vh;
+    border: 2px solid rgb(1, 1, 59);
+}
+
+#yourstory{
+    width: 36.3vw;
+    height: 17vh;
+    border: 2px solid rgb(1, 1, 59);
+}
+
 
 
 
