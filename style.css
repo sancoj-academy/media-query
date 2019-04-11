@@ -390,6 +390,31 @@ label {
     font-size: 20px;
 }
 
+.wedolabel{
+    font-size: 18px;
+}
+
+#other{
+    margin: 20px 0px;
+}
+
+#wedoprojectform button{
+    margin-top: 50px;
+}
+
+.wedobtn{
+    background-color: rgb(3, 82, 20);
+    border: 1px solid whitesmoke;
+    width: 100px;
+    height: 30px;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.wedobtn:hover {
+    background-color: rgb(1, 1, 59);
+}
 
 
 
