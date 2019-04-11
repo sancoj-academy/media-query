@@ -506,6 +506,17 @@ label {
     float: right;
 }
 
+#footerright ul{
+    list-style: none;
+    float: right;
+}
+
+#footerright ul li{
+    float: left;
+    margin: 0px 10px;
+    
+}
+
 
 
 
