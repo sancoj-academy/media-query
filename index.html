@@ -264,23 +264,23 @@
             <div id="employerform">
                 <form action="">
                     <p>
-                        <label for="employerform">I need: </label>
-                        <input type="checkbox" name="backenddevs" id="backenddevs"> BackEnd Developers
-                        <input type="checkbox" name="frontenddevs" id="frontenddevs"> FrontEnd Developers
-                        <input type="checkbox" name="meandevs" id="meanddevs"> MEAN Fullstack Developers
-                        <input type="checkbox" name="serveradmins" id="serveradmins"> Server Administrators
+                        <label for="employerform">WHAT DO YOU NEED? : </label>
+                        <input type="checkbox" name="backenddevs" id="backenddevs"> <span class="developertype"> BackEnd Developers</span> &nbsp;                      
+                        <input type="checkbox" name="frontenddevs" id="frontenddevs"> <span class="developertype">FrontEnd Developers</span> &nbsp;
+                        <input type="checkbox" name="meandevs" id="meanddevs"> <span class="developertype">MEAN Fullstack Developers</span> &nbsp;
+                        <input type="checkbox" name="serveradmins" id="serveradmins"> <span class="developertype">Server Administrators</span>
                     </p>
                     <p>
-                            <label for="jobtype">Job Type: </label>
-                            <input type="checkbox" name="onsite" id="onsite">On-site
-                            <input type="checkbox" name="remote" id="remote">Remote
+                            <label for="jobtype">JOB TYPE: &nbsp;&nbsp;</label>
+                            <input type="checkbox" name="onsite" id="onsite"><span class="jobtype">On-site</span> &nbsp;&nbsp;
+                            <input type="checkbox" name="remote" id="remote"><span class="jobtype">Remote</span>
                         </p>
                     <p>
-                        <textarea name="detail" id="detail" cols="30" rows="10" placeholder="Kindly give us detail of what you need."></textarea>
+                        <textarea name="detail" id="detail" placeholder="Kindly give us detail of what you need."></textarea>
                     </p>
 
                     <p>
-                        <button type="submit">Submit</button>
+                        <button id="employersubmitbtn" type="submit">Submit</button>
                     </p>
                    
                 </form>

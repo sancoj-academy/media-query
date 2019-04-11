@@ -424,22 +424,22 @@ label {
 /* Employers */
 .employers{
     width: auto;
-    height: 60vh;
-    background-color: lightslategray;
+    height: 70vh;
+    background-color: rgb(3, 82, 20);
     line-height: 40px;
 }
 
 #employertitle{
     text-align: center;
     font-size: 20px;
-    color: rgb(1, 1, 59);
+    color: whitesmoke;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #employerpara{
     text-align: center;
     font-size: 18px;
-    color: rgb(1, 1, 59);
+    color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: oblique;
 }
@@ -448,7 +448,40 @@ label {
     text-align: center;
 }
 
+.developertype{
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
 
+.jobtype{
+    color: whitesmoke;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#detail{
+    border: 3px rgb(1, 1, 59) double;
+    width: 30vw;
+    height: 30vh;
+}
+
+#employersubmitbtn{
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(3, 82, 20);
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 15px;
+    
+}
+
+#employersubmitbtn:hover{
+    background-color: rgb(1, 1, 59);
+    cursor: pointer;
+}
 
 
 
