@@ -399,7 +399,7 @@ label {
 }
 
 #wedoprojectform button{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .wedobtn{
@@ -414,6 +414,38 @@ label {
 
 .wedobtn:hover {
     background-color: rgb(1, 1, 59);
+}
+
+#sancdonation{
+    width: auto;
+    height: auto;
+}
+
+/* Employers */
+.employers{
+    width: auto;
+    height: 60vh;
+    background-color: lightslategray;
+    line-height: 40px;
+}
+
+#employertitle{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(1, 1, 59);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#employerpara{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(1, 1, 59);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+#employerform{
+    text-align: center;
 }
 
 
