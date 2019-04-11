@@ -34,7 +34,7 @@
 
 .navbar li{
     float: left;
-    margin: 20px 5px;
+    margin: 20px 2px;
 }
 .navbar li:hover{
     background-color: rgb(3, 82, 20);
@@ -488,7 +488,7 @@ label {
 #stafftraining{
     background-color: lightslategray;
     max-width: 100vw;
-    height: 80vh;
+    height: 90vh;
 }
 
 .stafftrainhead h2{
@@ -506,7 +506,7 @@ label {
 .grouptraining, .singletraining{
     width: 45%;
     height: 70%;
-    margin: 10px;
+    margin: 15px;
     border: 2px dotted rgb(1, 1, 59);
     border-radius: 10px;
     padding: 20px;
@@ -532,7 +532,12 @@ label {
     border: 1px solid whitesmoke;
     color: whitesmoke;
     font-size: 16px;
-    margin: auto;
+    margin: 40px 450px;
+}
+
+#trainbtn:hover{
+    background-color: rgb(3, 82, 20);
+    cursor: pointer;
 }
 /* Footer */
 .footer{
