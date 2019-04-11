@@ -337,6 +337,55 @@ label {
     border: 2px solid rgb(1, 1, 59);
 }
 
+/* Work with us */
+.wedoprojects{
+    max-width: 100vw;
+    height: 90vh;
+    background-image: url("/workwithus.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+
+
+}
+
+.wedoprojectsinner{
+    width: 35%;
+    height: 97%;
+    background-color: rgb(1, 1, 59);
+    margin: 20px;
+    margin-top: 0px;
+    padding: 10px 50px;
+    border-radius: 20px;
+}
+
+#wedoprojecttitle{
+    color: whitesmoke;
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#wedoprojectpara h4{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#wedoprojectform{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
