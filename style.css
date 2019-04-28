@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 .header{
     background-image: url("/header.jpg");
     background-position: center;
@@ -83,6 +84,7 @@
     height: 15vh;
     background-color: aliceblue;
 }
+
 
 #enrollinebtn{
     float: right;
@@ -625,6 +627,94 @@ label {
     
 }
 
+/* Mobile */
+
+@media screen and (max-width: 480px){
+    .navigation{
+        overflow: hidden;
+        background-color: rgb(3, 82, 20);
+    }
+    .showcase h1{
+        font-size: 2em;
+    }
+
+    .showcase h3{
+        font-size: 1.3em;
+        color: antiquewhite;
+    }
+
+    .header{
+        background-image: url("/header.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 100vw;
+        height: 60vh;
+        
+    }
+
+    #enrollinepara{
+        font-size: 1.3em;
+        margin: 2px 2px 2px 8px;
+    }
+
+    #enrollinebtn{
+        float: right;
+        margin: 0px 20px 2px 25px;
+        background-color: rgb(1, 1, 59);
+        width: 100px;
+        height: 4vh;
+        color: aliceblue;
+        font-size: 16px;
+        border: 1px solid rgb(3, 82, 20);
+    
+    }
+
+    #aboutus{ 
+        max-width: 100vw;
+        max-height: 800px;
+        
+        
+    }
+    
+    .abouttext{
+        background-color: rgb(1, 1, 59);
+        
+        width: 100%;
+        color: whitesmoke;
+        float: left;
+        height: 400px;
+        font-size: 28px;
+        
+    }
+
+    .aboutimage{
+        width: 100%;
+        float: right;
+        height: 400px;
+        image-orientation: inherit;
+        
+    }
+    .abouttext article{
+        text-align: left;
+        font-style: oblique;
+        font-size: 20px;
+        padding: 0px 5px;
+    }
+    .abouttext button{
+        font-size: 1rem;
+        margin-right:0px;
+        background-color: rgb(1, 1, 59);
+        color: whitesmoke;
+        padding: 10px;
+        max-width: 60vw;
+        height: 40px;
+        
+    }
+
+
+
+}
 
 
 
