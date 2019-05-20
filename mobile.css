@@ -416,9 +416,14 @@ label {
     border: 1px solid whitesmoke;
     color: whitesmoke;
     font-size: 12px;
-    float: left;
+    margin: 10px;
+    margin-left: 150px;
+    
+
+    
     
 }
+
 
 /* Contact */
 #contactus{
@@ -482,6 +487,7 @@ label {
 #footerright ul li{
     float: left;
     margin: 10px 15px;
+    
     
     
 }
