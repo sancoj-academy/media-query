@@ -453,30 +453,36 @@ label {
 }
 
 #footerright, #footerleft{
-    width: 98%;
+    width: 100%;
     
 }
 
 #footerright{
     float: none;
     padding: 10px;
+    
+   
 }
 
 #footerleft{
     font-size: 14px;
     float: none;
+   
+   
 }
 
 #footerright ul{
     list-style: none;
     float: none;
     margin: 10px 0px;
+   
     
 }
 
 #footerright ul li{
     float: left;
-    margin: 10px 0px;
+    margin: 10px 15px;
+    
     
 }
 
