@@ -185,7 +185,7 @@
 }
 
 .meanstack, .frontend, .backend, .serveradmin{
-    max-width: 23.5%;
+    max-width: 24%;
     height: 75%;
     border: 2px solid rgb(1, 1, 59);
     float: left;
@@ -627,7 +627,7 @@ label {
     
 }
 
-/* Mobile */
+/* Mobile 
 
 @media screen and (max-width: 480px){
     .navigation{
@@ -672,26 +672,22 @@ label {
 
     #aboutus{ 
         max-width: 100vw;
-        max-height: 800px;
-        
+        max-height: 800vh;
         
     }
     
     .abouttext{
         background-color: rgb(1, 1, 59);
-        
         width: 100%;
         color: whitesmoke;
-        float: left;
-        height: 400px;
+        height: 40%;
         font-size: 28px;
         
     }
 
     .aboutimage{
         width: 100%;
-        float: right;
-        height: 400px;
+        height: 40%;
         image-orientation: inherit;
         
     }
@@ -712,9 +708,94 @@ label {
         
     }
 
+    /* Available courses - mobile */
+
+    /* Courses 
+#courses{
+    max-width: 100vw;
+    height: 220vh;
+    background-color: aliceblue;
+    
+    
+}
+
+#courses h2{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.meanstack, .frontend, .backend, .serveradmin{
+    max-width: 100%;
+    height: 30%;
+    border: 2px solid rgb(1, 1, 59);
+    margin: 5px 0px;
+}
+
+.meanstack, .frontend, .backend, .serveradmin h3{
+    color: black;
+    text-align: center;
+}
+
+.serveradmintext{
+    color: black;
+    text-align: center;
+}
+
+.meanstack img{
+    width: 98%;
+    height: 50%;
+}
+
+.frontendimage img{
+    width: 98%;
+    height: 50%;
+}
+
+.backendimage img{
+    width: 98%;
+    height: 50%;   
+}
+
+.serveradminimage img{
+    width: 98%;
+    height: 50%;
+}
+
+.apply{
+    margin: 20px auto;
+    
+}
+
+.apply button{
+    width: 10vw;
+    height: 30px;
+    border: 1px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(1, 1, 59);
+    color: whitesmoke;
+}
+
+.apply button:hover{
+    background-color: rgb(3, 82, 20);
+}
+
 
 
 }
+*/
+
+
+
+
+
+
+
+
+
+
 
 
 
