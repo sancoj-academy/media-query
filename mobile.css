@@ -411,8 +411,8 @@ label {
 }
 
 .trainimg{
-    width: 70%;
-    height: 70%;
+    width: auto;
+    height: 200px;
 }
 
 #trainbtn{
