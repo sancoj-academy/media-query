@@ -76,3 +76,46 @@
     margin: 20px 20px 2px 25px;
     font-family: 'Courgette', cursive;
 }
+
+/* About us */
+#aboutus{
+    max-width: 100vw;
+    max-height: 400px;
+    
+    
+}
+
+.abouttext{
+    background-color: rgb(1, 1, 59);
+    
+    width: 50%;
+    color: whitesmoke;
+    float: left;
+    height: 400px;
+    font-size: 18px;
+    
+}
+
+.abouttext h2 {
+    text-align: center;
+    margin: 20px auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.abouttext article{
+    text-align: left;
+    font-style: oblique;
+    font-size: 20px;
+    padding: 0px 15px;
+}
+
+.abouttext button{
+    font-size: 1rem;
+    margin: 30px 15px;
+    background-color: rgb(1, 1, 59);
+    color: whitesmoke;
+    padding: 5px;
+    height: 5vh;
+    
+}
