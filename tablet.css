@@ -347,7 +347,11 @@ fieldset{
     max-width: 100%;
     height: 90%;
 }
-
+.stafftrainhead h2{
+    text-align: center;
+    color: rgb(1, 1, 59);
+    font-size: 20px;
+}
 .grouptraining{
     width: 48%;
     height: 90%;
@@ -369,4 +373,19 @@ fieldset{
 .trainimg{
     width: 80%;
     height: 200px;
+}
+
+#trainbtn{
+    width: 20vw;
+    height: 6vh;
+    background-color: rgb(1, 1, 59);
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    font-size: 12px;
+    margin: 10px;
+    margin-left: 200px;
+    
+
+    
+    
 }
