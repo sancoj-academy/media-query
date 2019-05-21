@@ -119,3 +119,100 @@
     height: 5vh;
     
 }
+
+/* Courses */
+#courses{
+    width: 100%;
+    height: 900px;
+    background-color: aliceblue;
+    
+}
+
+#courses h2{
+    font-size: 25px;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.meanstack{
+    max-width: 48%;
+    height: 47%;
+    border: 2px solid rgb(1, 1, 59);
+    float: left;
+    margin: 5px 5px;
+    
+}
+.frontend{
+    max-width: 48%;
+    height: 47%;
+    border: 2px solid rgb(1, 1, 59);
+    float: right;
+    margin: 5px 5px;
+}
+.backend{
+    max-width: 48%;
+    height: 47%;
+    border: 2px solid rgb(1, 1, 59);
+    float: left;
+    margin-bottom: 10px;
+    
+}
+
+.serveradmin{
+    max-width: 48%;
+    height: 47%;
+    border: 2px solid rgb(1, 1, 59);
+    float: right;
+    margin-bottom: 10px;
+    
+}
+
+.meanstack, .frontend, .backend, .serveradmin h3{
+    color: black;
+    text-align: center;
+}
+
+.serveradmintext{
+    color: black;
+    text-align: center;
+}
+
+.meanstack img{
+    width: 98%;
+    height: 50%;
+}
+
+.frontendimage img{
+    width: 98%;
+    height: 50%;
+}
+
+.backendimage img{
+    width: 98%;
+    height: 50%;   
+}
+
+.serveradminimage img{
+    width: 98%;
+    height: 50%;
+}
+
+.apply{
+    margin: 20px auto;
+    
+}
+
+.apply button{
+    width: 10vw;
+    height: 30px;
+    border: 1px solid gray;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: rgb(1, 1, 59);
+    color: whitesmoke;
+}
+
+.apply button:hover{
+    background-color: rgb(3, 82, 20);
+}
