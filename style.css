@@ -18,14 +18,12 @@
 .navigation{
     background-color: rgb(1, 1, 59);
     opacity: 0.8;
-    max-width: auto;
+    width: 100%;
     max-height: 12vh;
     list-style: none;
-    
-    
-    
-    
-    
+    position: fixed;
+    top: 0px;
+     
 }
 
 .logo img{
