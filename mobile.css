@@ -1,9 +1,14 @@
 .navigation{
     overflow: hidden;
-    background-color: rgb(3, 82, 20);
+    background-color: rgb(1, 1, 59);
     position: fixed;
     top: 0px;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
+.showcase{
+    top: 25px;
+    
 }
 .showcase h1{
     font-size: 2em;
@@ -19,8 +24,9 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 100vw;
+    max-width: 100%;
     height: 100%;
+    
     
 }
 
