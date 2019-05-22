@@ -198,22 +198,22 @@
 
 .meanstack img{
     width: 98%;
-    height: 50%;
+    height: 40%;
 }
 
 .frontendimage img{
     width: 98%;
-    height: 50%;
+    height: 40%;
 }
 
 .backendimage img{
     width: 98%;
-    height: 50%;   
+    height: 40%;   
 }
 
 .serveradminimage img{
     width: 98%;
-    height: 50%;
+    height: 40%;
 }
 
 .apply{
@@ -222,7 +222,7 @@
 }
 
 .apply button{
-    width: 10vw;
+    width: 20%;
     height: 30px;
     border: 1px solid gray;
     font-size: 15px;
